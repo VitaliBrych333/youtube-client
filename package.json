@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "mocha --compilers js:babel-core/register test/",
+    "test": "mocha test/",
     "dev": "webpack --mode development --watch"
   },
   "author": "Vitali Brych <epamc@mail.ru>",
