@@ -1,0 +1,54 @@
+.paging {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.page {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.page:hover {
+  cursor: pointer;
+  background-color: blue;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.active {
+  background-color: blue;
+}
+
+.popuptext {
+  opacity: 0;
+  width: 85px;
+  border: 2px solid red;
+  height: 17px;
+  font-size: 12px;
+  position: absolute;
+  margin: -29px 0px 0 -38px;
+  border-radius: 8px;
+  background: red;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+

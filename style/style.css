@@ -1,0 +1,120 @@
+@import url(./fonts.css);
+@import url(./component.css);
+@import url(./paging.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-decoration: none;
+}
+
+body {
+  max-width: 1600px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  height: 220px;
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+  background-image: url(http://indiacsr.in/wp-content/uploads/2018/02/Sony-Pictures-Networks-India-launched-its-first-music-training-room-at-the-Bhondsi-jail.jpg);
+}
+
+h1 {
+  font-family:  BehrensModern, sans-serif;
+  font-size: 40px;
+  color: rgb(211, 37, 13);
+  margin-top: 20px;
+}
+
+header p {
+  font-family:  BehrensModern, sans-serif;
+  font-size: 20px;
+  color: rgb(39, 70, 206);
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 2px solid rgb(46, 62, 211);
+  margin-top: 5px; 
+}
+
+input:hover {
+  border-color: rgb(211, 37, 13);
+}
+
+button {
+  width: 120px;
+  height: 30px;  
+  border-radius: 10px;
+  background-color: rgb(46, 62, 211); 
+  border:none;  
+  font-family:  BehrensModern, sans-serif;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 5px; 
+}
+
+button:hover {
+  background-color: rgb(211, 37, 13);
+}
+
+button, i {
+  font-size: 20px;
+  color: #fff;;
+}
+
+.answer-block {
+  padding-top: 50px;
+  margin: 0 auto;
+  height: 452px;
+  max-width: 1500px;
+  background: red;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media screen and (max-width: 418px) {
+  .head {
+    height: 140px;
+  }  
+
+  header p {   
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+  }
+
+  h1 {    
+    font-size: 30px;
+  }
+  
+  input {
+    width: 200px;
+    height: 20px;
+  }
+
+  button {
+    width: 80px;
+    height: 20px;      
+  }
+
+  button, i {
+    font-size: 15px;   
+  }
+}
